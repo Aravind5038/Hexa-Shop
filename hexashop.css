@@ -957,7 +957,7 @@ footer{
         font-size: 2rem;
     }  
 }
-@media (max-width:1441px){
+@media (min-width:1441px){
     .arrow {
         position: relative;
         top: 22vh;
