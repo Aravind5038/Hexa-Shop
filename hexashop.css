@@ -10,15 +10,13 @@
 
 .nav {
     width: 100%;
-    border-bottom: 2px dotted rgb(152, 146, 146);
-
 }
 
 .navbar_1 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 2vh;
-
+    border-bottom: 2px dotted rgb(152, 146, 146);
 }
 
 .navbar_1>span {
@@ -361,13 +359,15 @@ footer{
 @media (max-width:424px){
 
     .navbar_1{
-        width: 100%;
+        width: 310vw;
     }
+    
     .hexashop {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 310vw;
+        margin-left: 2rem;
     }
     .hexashop_cont-1 {
         width: 310vw;
@@ -379,22 +379,31 @@ footer{
     }
     .hexashop_cont-2 {
         width: 310vw;
+
     }
     .women {
         width: 310vw;
-        height: 40vh;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: 310vw; 
     }
     .men{
         width: 310vw;
-        height: 40vh;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: 310vw;
     }
     .kids{
         width: 310vw;
-        height: 40vh;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: 310vw;
     }
     .accessories{
         width: 310vw;
-        height: 40vh;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: 310vw;
     }
     .addcontent{
         width: 310vw;
@@ -549,7 +558,6 @@ footer{
     }
     .nav {
         width: 320vw;
-        border-bottom: 2px dotted rgb(152, 146, 146);
     }
     .hexashop {
         display: flex;
@@ -581,6 +589,7 @@ footer{
     .women {
         width: 50vw;
         font-size: 35px;
+        
     }
     .men{
         width: 50vw;
@@ -751,7 +760,6 @@ footer{
 @media (min-width:769px) and (max-width:1024px){
     .nav {
         width: 125vw;
-        border-bottom: 2px dotted rgb(152, 146, 146);
     }
     .hexashop {
         display: flex;
@@ -873,8 +881,8 @@ footer{
         align-items: center;
     }
     .socialmedia_1 > img{
-        width: 50vw;
-        height: 30vh;
+        width: 30vw;
+        height: 20vh;
     }
     .subsciption{
         width: 125vw;
