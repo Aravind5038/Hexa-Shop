@@ -957,13 +957,3 @@ footer{
         font-size: 2rem;
     }  
 }
-@media (max-width:1441px){
-    .arrow {
-        position: relative;
-        top: 22vh;
-        display: flex;
-        justify-content: space-between;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-}
