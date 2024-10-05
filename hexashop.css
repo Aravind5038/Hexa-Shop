@@ -233,13 +233,13 @@ span>a {
 }
 
 .productex-1 {
-    width: 50%;
+    width: 70vw;
 }
 
 .productex-2 {
     margin-top: 10vh;
     margin-bottom: 10vh;
-    width: 50%;
+    width: 50vwvw;
     display: flex;
     gap: 1vw;
     flex-wrap: wrap;
@@ -247,7 +247,7 @@ span>a {
 
 .productex-c1,
 .productex-c4 {
-    width: 47%;
+    width: 17vw;
     height: 36vh;
     display: flex;
     flex-direction: column;
@@ -707,12 +707,16 @@ footer {
         flex-wrap: wrap;
     }
 
-    .women,.men,.kids,.accessories{
+    .women,
+    .men,
+    .kids,
+    .accessories {
         width: 50vw;
         font-size: 35px;
         background-repeat: no-repeat;
         background-size: 50vw 70vh;
     }
+
     .addcont_1 {
         width: 310vw;
         font-size: 40px;
